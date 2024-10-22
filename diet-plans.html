@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="title">Detox and Diet</h1>
+            <ul>
+                <li><a href="index.html" id="home-link">Home</a></li>
+                <li><a href="diet-plans.html" id="diet-plans-link">Diet Plans</a></li>
+                <li><a href="recipes.html" id="recipes-link">Recipes</a></li>
+                <li><a href="useful-tips.html" id="useful-tips-link">Useful Tips</a></li>
+            </ul>
+        </nav>
+        <div class="language-select">
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('tr')">Türkçe</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="diet-plans">
+            <h2>Detox program</h2>
+            <p>21-day detox program, not a juicy one.</p>
+
+            <div class="diet-plan">
+                <h3 id="diet-plan-heading">Week-1</h2>
+                <a href="public/pdfs/DETOX_W1_EKIM.pdf" id="view-plan-btn" class="btn" target="_blank">View Plan</a>
+            </div>
+
+            <div class="diet-plan">
+                <h3 id="diet-plan-heading">Week-2</h2>
+                <a href="public/pdfs/DETOX_W2_EKIM.pdf" id="view-plan-btn" class="btn" target="_blank">View Plan</a>
+            </div>
+
+            <div class="diet-plan">
+                <h3 id="diet-plan-heading">Week-3</h2>
+                <a href="public/pdfs/DETOX_W3_EKIM.pdf" id="view-plan-btn" class="btn" target="_blank">View Plan</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p id="footer-text">&copy; 2024 Detox and Diet. All rights reserved.</p>
+    </footer>
+</body>
+</html>
